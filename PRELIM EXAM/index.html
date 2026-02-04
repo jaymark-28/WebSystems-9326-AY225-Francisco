@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JPCS | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1 class="logo">JPCS</h1>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="officers.html">Officers</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="register.html">Membership</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Junior Philippine Computer Society</h2>
+  <p>Empowering students through technology and leadership</p>
+  <a href="register.html" class="btn">Join Now</a>
+</section>
+
+<section class="about-preview">
+  <h3>About JPCS</h3>
+  <p>
+    JPCS is a student organization that develops skills in computing,
+    leadership, and professional growth through seminars and activities.
+  </p>
+</section>
+
+<section class="events-section">
+  <h3>Upcoming Events</h3>
+
+  <div class="filter">
+    <select id="categoryFilter">
+      <option value="all">All</option>
+      <option value="Seminar">Seminar</option>
+      <option value="Workshop">Workshop</option>
+      <option value="Competition">Competition</option>
+    </select>
+  </div>
+
+  <div id="eventList" class="event-list"></div>
+</section>
+
+<div id="eventModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDate"></p>
+    <p id="modalCategory"></p>
+    <p id="modalDescription"></p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 JPCS</p>
+</footer>
+
+<script src="js/events.js"></script>
+</body>
+</html>
