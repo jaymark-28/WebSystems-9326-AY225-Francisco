@@ -264,3 +264,12 @@ footer {
     font-size: 34px;
   }
 }
+.event-card h3 {
+  margin-bottom: 12px;
+  color: #0a1f44;
+}
+
+.event-card p {
+  font-size: 15px;
+  line-height: 1.6;
+}
