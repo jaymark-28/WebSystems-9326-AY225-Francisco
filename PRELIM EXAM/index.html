@@ -10,9 +10,8 @@
 
 <header>
   <nav class="navbar">
-    <!-- Logo now clickable -->
     <a href="index.html" class="logo-link">
-     <img src="asset/images/logo.png" alt="JPCS Logo" class="logo-img">
+      <img src="asset/images/logo.png" class="logo-img">
       <span class="logo-text">JPCS</span>
     </a>
 
@@ -26,35 +25,36 @@
   </nav>
 </header>
 
+<main>
+  <section class="hero">
+    <h2>Junior Philippine Computer Society</h2>
+    <p>Empowering students through technology and leadership</p>
+    <a href="register.html" class="btn">Join Now</a>
+  </section>
 
-<section class="hero">
-  <h2>Junior Philippine Computer Society</h2>
-  <p>Empowering students through technology and leadership</p>
-  <a href="register.html" class="btn">Join Now</a>
-</section>
+  <section class="about-preview">
+    <h3>About JPCS</h3>
+    <p>
+      JPCS is a student organization that develops computing skills,
+      leadership, and professional growth through seminars and activities.
+    </p>
+  </section>
 
-<section class="about-preview">
-  <h3>About JPCS</h3>
-  <p>
-    JPCS is a student organization that develops skills in computing,
-    leadership, and professional growth through seminars and activities.
-  </p>
-</section>
+  <section class="events-section">
+    <h3>Upcoming Events</h3>
 
-<section class="events-section">
-  <h3>Upcoming Events</h3>
+    <div class="filter">
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="Seminar">Seminar</option>
+        <option value="Workshop">Workshop</option>
+        <option value="Competition">Competition</option>
+      </select>
+    </div>
 
-  <div class="filter">
-    <select id="categoryFilter">
-      <option value="all">All</option>
-      <option value="Seminar">Seminar</option>
-      <option value="Workshop">Workshop</option>
-      <option value="Competition">Competition</option>
-    </select>
-  </div>
-
-  <div id="eventList" class="event-list"></div>
-</section>
+    <div id="eventList" class="event-list"></div>
+  </section>
+</main>
 
 <div id="eventModal" class="modal">
   <div class="modal-content">

@@ -10,7 +10,9 @@
 
 <header>
   <nav class="navbar">
-    <h1 class="logo">JPCS</h1>
+    <a href="index.html" class="logo-link">
+      <span class="logo-text">JPCS</span>
+    </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -21,17 +23,18 @@
   </nav>
 </header>
 
-<section class="content">
-  <h2>Membership Registration</h2>
+<main>
+  <section class="content">
+    <h2>Membership Registration</h2>
 
-  <form id="registerForm">
-    <input type="text" id="name" placeholder="Full Name">
-    <input type="email" id="email" placeholder="Email">
-    <input type="text" id="course" placeholder="Course">
-    <button type="submit">Register</button>
-    <p id="formMessage"></p>
-  </form>
-</section>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Course / Year" required>
+      <button type="submit">Register</button>
+    </form>
+  </section>
+</main>
 
 <footer>
   <p>&copy; 2026 JPCS</p>

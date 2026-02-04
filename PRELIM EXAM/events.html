@@ -10,7 +10,9 @@
 
 <header>
   <nav class="navbar">
-    <h1 class="logo">JPCS</h1>
+    <a href="index.html" class="logo-link">
+      <span class="logo-text">JPCS</span>
+    </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -21,17 +23,22 @@
   </nav>
 </header>
 
-<section class="content">
-  <h2>Events & Activities</h2>
-  <select id="categoryFilter">
-    <option value="all">All</option>
-    <option value="Seminar">Seminar</option>
-    <option value="Workshop">Workshop</option>
-    <option value="Competition">Competition</option>
-  </select>
+<main>
+  <section class="content">
+    <h2>Events & Activities</h2>
 
-  <div id="eventList" class="event-list"></div>
-</section>
+    <div class="filter">
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="Seminar">Seminar</option>
+        <option value="Workshop">Workshop</option>
+        <option value="Competition">Competition</option>
+      </select>
+    </div>
+
+    <div id="eventList" class="event-list"></div>
+  </section>
+</main>
 
 <div id="eventModal" class="modal">
   <div class="modal-content">
