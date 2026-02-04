@@ -11,9 +11,10 @@
 <header>
   <nav class="navbar">
     <a href="index.html" class="logo-link">
-      <img src="asset/images/logo.png" class="logo-img">
+      <img src="asset/images/logo.png" alt="JPCS Logo" class="logo-img">
       <span class="logo-text">JPCS</span>
     </a>
+
     <ul class="nav-links">
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -25,36 +26,61 @@
 </header>
 
 <main>
+
+  <!-- HERO SECTION -->
   <section class="hero">
     <h2>Junior Philippine Computer Society</h2>
     <p>
       Empowering students through technology, leadership,
-      innovation, and professional development.
+      collaboration, and professional growth.
     </p>
-    <a href="register.html" class="btn">Join Now</a>
+    <a href="register.html" class="btn">Become a Member</a>
   </section>
 
+  <!-- WHO WE ARE -->
   <section class="about-preview">
     <h3>Who We Are</h3>
     <p>
-      The Junior Philippine Computer Society (JPCS) is a recognized
-      student organization that focuses on developing students’
-      technical skills, leadership qualities, and professional values
-      in the field of Information Technology and Computing.
+      The Junior Philippine Computer Society (JPCS) is a student
+      organization dedicated to developing future IT professionals.
+      It serves as a platform where students can learn, collaborate,
+      and grow beyond the classroom.
     </p>
   </section>
 
+  <!-- WHAT WE DO -->
   <section class="about-preview">
     <h3>What We Do</h3>
     <p>
-      JPCS conducts seminars, workshops, competitions, and outreach
-      programs that help students gain real-world experience and
-      prepare them for future careers in technology.
+      JPCS organizes seminars, workshops, competitions, and
+      academic activities that enhance students’ technical skills,
+      leadership abilities, and real-world experience.
     </p>
   </section>
 
+  <!-- WHY JOIN -->
+  <section class="content">
+    <h2>Why Join JPCS?</h2>
+    <p>
+      By joining JPCS, students gain opportunities to participate
+      in meaningful events, build professional networks, and
+      develop skills that are essential in the IT industry.
+    </p>
+    <p>
+      Membership helps students prepare for future careers by
+      exposing them to current technologies and collaborative
+      learning environments.
+    </p>
+  </section>
+
+  <!-- UPCOMING EVENTS -->
   <section class="events-section">
     <h3>Upcoming Events</h3>
+    <p>
+      Stay updated with the latest JPCS activities and programs.
+      Members may filter events based on category to easily
+      find activities that match their interests.
+    </p>
 
     <div class="filter">
       <select id="categoryFilter">
@@ -67,8 +93,10 @@
 
     <div id="eventList" class="event-list"></div>
   </section>
+
 </main>
 
+<!-- EVENT MODAL (JS SAFE) -->
 <div id="eventModal" class="modal">
   <div class="modal-content">
     <span class="close-btn">&times;</span>

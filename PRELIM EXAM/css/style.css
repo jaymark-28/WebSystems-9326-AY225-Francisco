@@ -273,3 +273,6 @@ footer {
   font-size: 15px;
   line-height: 1.6;
 }
+.content p {
+  max-width: 900px;
+}

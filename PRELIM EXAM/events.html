@@ -24,18 +24,69 @@
 </header>
 
 <main>
-  <section class="content">
-    <h2>Events & Activities</h2>
-    <p>
-      JPCS organizes various academic and non-academic events
-      such as seminars, workshops, competitions, and community
-      outreach programs to enhance students’ skills and experience.
-    </p>
 
-    <h3>Event Categories</h3>
+  <!-- EVENTS HERO -->
+  <section class="hero">
+    <h2>JPCS Events & Activities</h2>
     <p>
-      Events are categorized to help members easily identify
-      activities based on their interests and learning goals.
+      Discover seminars, workshops, competitions, and activities
+      designed to enhance students’ skills and experience.
+    </p>
+  </section>
+
+  <!-- EVENTS OVERVIEW -->
+  <section class="content">
+    <h2>Events Overview</h2>
+    <p>
+      The Junior Philippine Computer Society organizes various academic
+      and non-academic events that aim to develop students’ technical
+      knowledge, leadership abilities, and teamwork skills.
+    </p>
+    <p>
+      Through these activities, members are exposed to real-world
+      scenarios that prepare them for future careers in the IT industry.
+    </p>
+  </section>
+
+  <!-- EVENT CATEGORIES -->
+  <section class="content">
+    <h2>Event Categories</h2>
+
+    <div class="event-list">
+      <div class="event-card">
+        <h3>Seminars</h3>
+        <p>
+          Educational talks conducted by professionals and experts
+          that focus on current trends, technologies, and best practices
+          in the field of Information Technology.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <h3>Workshops</h3>
+        <p>
+          Hands-on training sessions where students gain practical
+          experience by working on real tasks, tools, and technologies.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <h3>Competitions</h3>
+        <p>
+          Competitive activities that challenge students’ problem-solving
+          skills, creativity, and teamwork while encouraging innovation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPCOMING EVENTS (JS SECTION – DO NOT TOUCH) -->
+  <section class="content">
+    <h2>Upcoming Events</h2>
+    <p>
+      Below is the list of upcoming JPCS events. Members may filter
+      activities based on category to easily find events that match
+      their interests.
     </p>
 
     <div class="filter">
@@ -49,8 +100,10 @@
 
     <div id="eventList" class="event-list"></div>
   </section>
+
 </main>
 
+<!-- EVENT MODAL (JS DEPENDENT – SAFE) -->
 <div id="eventModal" class="modal">
   <div class="modal-content">
     <span class="close-btn">&times;</span>
@@ -68,4 +121,3 @@
 <script src="js/events.js"></script>
 </body>
 </html>
-
