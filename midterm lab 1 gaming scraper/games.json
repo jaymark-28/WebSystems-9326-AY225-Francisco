@@ -1,0 +1,722 @@
+[
+  {
+    "game_title": "Pokémon Legends: Z-A",
+    "release_date": "Late 2026",
+    "key_features": [
+      "Set entirely within Lumiose City",
+      "Return to the Kalos region",
+      "New gameplay mechanics",
+      "Urban exploration focus",
+      "Next chapter in Pokémon Legends series"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Legends+ZA",
+    "genre": "Action RPG",
+    "rating": "E",
+    "players": "1"
+  },
+  {
+    "game_title": "Pokémon Champions",
+    "release_date": "2026",
+    "key_features": [
+      "Competitive battle simulator",
+      "Features Terastallization, Mega Evolution, Dynamax",
+      "Used for Pokémon World Championships 2026",
+      "Battle players worldwide",
+      "Connect with Pokémon HOME"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Pokémon Works",
+    "publisher": "The Pokémon Company",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Champions",
+    "genre": "Strategy",
+    "rating": "E",
+    "players": "1-2"
+  },
+  {
+    "game_title": "Scott Pilgrim EX",
+    "release_date": "March 4, 2026",
+    "key_features": [
+      "Brawl across space, time, and the city of Toronto",
+      "Choose from seven fan-favourite characters",
+      "Four-player co-op mode",
+      "String together stylish combos",
+      "8-bit energy and hyper-melodic rock soundtrack"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Ubisoft",
+    "publisher": "Ubisoft",
+    "image_url": "https://via.placeholder.com/300x200?text=Scott+Pilgrim+EX",
+    "genre": "Beat 'em up",
+    "rating": "T",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Pokémon Pokopia",
+    "release_date": "March 5, 2026",
+    "key_features": [
+      "Play as a Ditto and build your own paradise",
+      "Befriend all kinds of Pokémon",
+      "Copy Pokémon moves and abilities",
+      "Transform a desolate world into a cosy utopia",
+      "Invite friends to visit your creation"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Pokopia",
+    "genre": "Life Simulation",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Rotwood",
+    "release_date": "March 3, 2026",
+    "key_features": [
+      "Co-op action brawler from Klei Entertainment",
+      "Battle corrupted beasts through forests",
+      "Master diverse combat system",
+      "Play solo or with up to 3 friends",
+      "Challenging boss fights"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Klei Entertainment",
+    "publisher": "Klei Entertainment",
+    "image_url": "https://via.placeholder.com/300x200?text=Rotwood",
+    "genre": "Action Brawler",
+    "rating": "T",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Blue Prince",
+    "release_date": "March 3, 2026",
+    "key_features": [
+      "Genre-bending puzzle mystery game",
+      "Explore ever-changing manor Mt. Holly",
+      "Every room presents a choice",
+      "Find enigmatic Room 46",
+      "Joy-Con 2 mouse controls supported"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Dogubomb",
+    "publisher": "Raw Fury",
+    "image_url": "https://via.placeholder.com/300x200?text=Blue+Prince",
+    "genre": "Puzzle Mystery",
+    "rating": "E",
+    "players": "1"
+  },
+  {
+    "game_title": "FATAL FRAME II: Crimson Butterfly REMAKE",
+    "release_date": "March 12, 2026",
+    "key_features": [
+      "Haunting horror adventure returns",
+      "Play as twin sisters Mio and Mayu",
+      "Uncover mysteries of a cursed village",
+      "Repel vengeful spirits with Camera Obscura",
+      "Enhanced visuals and gameplay"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Koei Tecmo",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Fatal+Frame+2",
+    "genre": "Horror Adventure",
+    "rating": "M",
+    "players": "1"
+  },
+  {
+    "game_title": "Monster Hunter Stories 3: Twisted Reflection",
+    "release_date": "March 13, 2026",
+    "key_features": [
+      "Turn-based RPG in Monster Hunter universe",
+      "Ride monster allies known as monsties",
+      "Swim, climb, and soar through open world",
+      "Fight to save two nations from destruction",
+      "Swap Monsties mid-exploration"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "image_url": "https://via.placeholder.com/300x200?text=Monster+Hunter+Stories+3",
+    "genre": "RPG",
+    "rating": "T",
+    "players": "1"
+  },
+  {
+    "game_title": "WWE 2K26",
+    "release_date": "March 13, 2026",
+    "key_features": [
+      "Over 400 playable wrestlers",
+      "Create your own dream scenarios",
+      "Experience alternate history with CM Punk",
+      "Improved graphics and gameplay",
+      "Multiple game modes"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Visual Concepts",
+    "publisher": "2K Sports",
+    "image_url": "https://via.placeholder.com/300x200?text=WWE+2K26",
+    "genre": "Sports",
+    "rating": "T",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Super Mario Bros. Wonder – Nintendo Switch 2 Edition",
+    "release_date": "March 26, 2026",
+    "key_features": [
+      "Expanded version with new content",
+      "Multiplayer attractions in Bellabel Park",
+      "Battle Koopalings for stolen Bellabel Flowers",
+      "Play as Rosalina throughout adventure",
+      "Co-op play with Co-Star Luma"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Mario+Wonder+Switch+2",
+    "genre": "Platformer",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Virtua Fighter 5 R.E.V.O. World Stage",
+    "release_date": "March 26, 2026",
+    "key_features": [
+      "Original 3D fighting series continues",
+      "Improved online features",
+      "Take on challengers from around globe",
+      "New 'World Stage' solo mode",
+      "Enhanced graphics and gameplay"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Sega",
+    "publisher": "Sega",
+    "image_url": "https://via.placeholder.com/300x200?text=Virtua+Fighter+5",
+    "genre": "Fighting",
+    "rating": "T",
+    "players": "1-2"
+  },
+  {
+    "game_title": "Digimon Story Time Stranger",
+    "release_date": "July 10, 2026",
+    "key_features": [
+      "Over 450 Digimon to collect",
+      "Travel through space and time",
+      "Save human and digital worlds",
+      "Classic turn-based combat",
+      "4K/HDR at 30fps or Full HD/60fps on Switch 2"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Media.Vision",
+    "publisher": "Bandai Namco",
+    "image_url": "https://via.placeholder.com/300x200?text=Digimon+Story",
+    "genre": "RPG",
+    "rating": "T",
+    "players": "1"
+  },
+  {
+    "game_title": "Tales of Arise - Beyond the Dawn Edition",
+    "release_date": "May 21, 2026",
+    "key_features": [
+      "Full game with large story DLC 'Dawn Journey'",
+      "EX missions and bonus items included",
+      "Story of liberation against oppressors",
+      "Rich characters and expansive world",
+      "Enhanced for Switch 2"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Bandai Namco",
+    "publisher": "Bandai Namco",
+    "image_url": "https://via.placeholder.com/300x200?text=Tales+of+Arise",
+    "genre": "Action RPG",
+    "rating": "T",
+    "players": "1"
+  },
+  {
+    "game_title": "The Adventures of Elliot: The Millennium Tales",
+    "release_date": "June 18, 2026",
+    "key_features": [
+      "HD-2D graphics blend pixel art with 3DCG",
+      "Action RPG across space and time",
+      "Play as adventurer Elliot and fairy Fay",
+      "Time-crossing journey across multiple dimensions",
+      "Demo available now"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Nintendo",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Elliot",
+    "genre": "Action RPG",
+    "rating": "E10+",
+    "players": "1"
+  },
+  {
+    "game_title": "Granblue Fantasy Relink: Endless Ragnarok",
+    "release_date": "July 9, 2026",
+    "key_features": [
+      "Action RPG with thrilling combat",
+      "Enhanced online multiplayer",
+      "New single-player offline elements",
+      "Grand sky adventure into new chapter",
+      "Optimized for Switch 2"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Cygames",
+    "publisher": "Cygames",
+    "image_url": "https://via.placeholder.com/300x200?text=Granblue+Fantasy",
+    "genre": "Action RPG",
+    "rating": "T",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Culdcept BEGINS",
+    "release_date": "July 16, 2026",
+    "key_features": [
+      "Board game meets card game",
+      "Over 400 cards with endless strategies",
+      "Story mode and online multiplayer",
+      "GameShare for up to 4 players",
+      "First new Culdcept in 10 years"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Omiya Games",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Culdcept",
+    "genre": "Board Game",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Mixtape",
+    "release_date": "May 7, 2026",
+    "key_features": [
+      "Narrative-driven adventure",
+      "From creators of The Artful Escape",
+      "Soundtrack featuring DEVO, Smashing Pumpkins",
+      "Coming-of-age story",
+      "Eclectic gameplay styles"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Beethoven and Dinosaur",
+    "publisher": "Annapurna Interactive",
+    "image_url": "https://via.placeholder.com/300x200?text=Mixtape",
+    "genre": "Adventure",
+    "rating": "T",
+    "players": "1"
+  },
+  {
+    "game_title": "Moonlighter 2: The Endless Vault",
+    "release_date": "2026",
+    "key_features": [
+      "Live as adventurer and merchant",
+      "Dive into dimensions for loot",
+      "Sell treasures in your shop",
+      "Grow business and entice customers",
+      "Tactical dungeon runs"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Digital Sun",
+    "publisher": "11 bit studios",
+    "image_url": "https://via.placeholder.com/300x200?text=Moonlighter+2",
+    "genre": "Action RPG",
+    "rating": "E10+",
+    "players": "1"
+  },
+  {
+    "game_title": "Mario Tennis Fever",
+    "release_date": "February 12, 2026",
+    "key_features": [
+      "38 playable characters - most in series history",
+      "New characters: Goomba, Nabbit, Piranha Plant",
+      "Fever Rackets with unique abilities",
+      "Ice Racket freezes court, Shadow Racket creates duplicates",
+      "Fever Gauge for special shots"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Nintendo",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Mario+Tennis+Fever",
+    "genre": "Sports",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Pokémon Wind Wave",
+    "release_date": "2027",
+    "key_features": [
+      "Brand new Pokémon series",
+      "Completely new game announced February 2026",
+      "Coming to Nintendo Switch 2",
+      "New region to explore",
+      "New Pokémon to discover"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Wind+Wave",
+    "genre": "RPG",
+    "rating": "E",
+    "players": "1"
+  },
+  {
+    "game_title": "Biohazard Requiem",
+    "release_date": "February 27, 2026",
+    "key_features": [
+      "Latest entry in survival horror series",
+      "New protagonist and story",
+      "Exclusive Switch 2 features",
+      "Enhanced graphics and atmosphere",
+      "Terrifying new enemies"
+    ],
+    "platform_availability": "Nintendo Switch 2",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "image_url": "https://via.placeholder.com/300x200?text=Biohazard+Requiem",
+    "genre": "Survival Horror",
+    "rating": "M",
+    "players": "1"
+  },
+  {
+    "game_title": "Pokémon Legends: Arceus",
+    "release_date": "January 28, 2022",
+    "key_features": [
+      "Set in ancient Hisui region",
+      "Action-oriented gameplay",
+      "Catch Pokémon without battling",
+      "First Pokémon game with open zones",
+      "Learn about Sinnoh's origins"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Legends+Arceus",
+    "genre": "Action RPG",
+    "rating": "E",
+    "players": "1"
+  },
+  {
+    "game_title": "Pokémon Scarlet",
+    "release_date": "November 18, 2022",
+    "key_features": [
+      "Open-world Pokémon adventure",
+      "Three separate story paths",
+      "New Pokémon including starters Sprigatito",
+      "Terastallize Pokémon in battle",
+      "Multiplayer exploration"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000049456/3a5b7c9d1e3f5g7h9i1j3k5l7m9n1o3p5q7r9s1",
+    "genre": "RPG",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Pokémon Violet",
+    "release_date": "November 18, 2022",
+    "key_features": [
+      "Open-world Pokémon adventure",
+      "Three separate story paths",
+      "Ancient past aesthetic vs Scarlet's future",
+      "Terastallize Pokémon in battle",
+      "Version-exclusive Pokémon"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Violet",
+    "genre": "RPG",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Pokémon Sword",
+    "release_date": "November 15, 2019",
+    "key_features": [
+      "Set in Galar region",
+      "Gym challenges and stadium battles",
+      "Dynamax and Gigantamax mechanics",
+      "Wild Area open zone",
+      "Version-exclusive Pokémon"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Sword",
+    "genre": "RPG",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Pokémon Shield",
+    "release_date": "November 15, 2019",
+    "key_features": [
+      "Set in Galar region",
+      "Gym challenges and stadium battles",
+      "Dynamax and Gigantamax mechanics",
+      "Wild Area open zone",
+      "Version-exclusive Pokémon"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Shield",
+    "genre": "RPG",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Pokémon Let's Go, Pikachu!",
+    "release_date": "November 16, 2018",
+    "key_features": [
+      "Remake of Pokémon Yellow",
+      "Integration with Pokémon GO",
+      "Motion control catching",
+      "Partner Pikachu follows you",
+      "Simplified RPG mechanics"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Game Freak",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Lets+Go+Pikachu",
+    "genre": "RPG",
+    "rating": "E",
+    "players": "1-2"
+  },
+  {
+    "game_title": "Pokémon Brilliant Diamond",
+    "release_date": "November 19, 2021",
+    "key_features": [
+      "Remake of classic Diamond version",
+      "Return to Sinnoh region",
+      "Chibi art style",
+      "Grand Underground expanded",
+      "Pokémon following you"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "ILCA",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pokemon+Brilliant+Diamond",
+    "genre": "RPG",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "The Legend of Zelda: Tears of the Kingdom",
+    "release_date": "May 12, 2023",
+    "key_features": [
+      "Explore the vast skies above Hyrule",
+      "New abilities to fuse weapons and create vehicles",
+      "Massive open world with caves and islands",
+      "Epic story continuing from Breath of the Wild",
+      "Build complex machines with Ultrahand"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000063725/474aeb7a80b8f89eac9e2d1641ebf78cc1a44fcfbc6e4b9425a6c3d880a6a0f4",
+    "genre": "Action-Adventure",
+    "rating": "E10+",
+    "players": "1"
+  },
+  {
+    "game_title": "The Legend of Zelda: Breath of the Wild",
+    "release_date": "March 3, 2017",
+    "key_features": [
+      "Vast open world to explore",
+      "Climb anything, go anywhere",
+      "Physics-based puzzles",
+      "Sheikah Slate abilities",
+      "100+ shrines to discover"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Zelda+Breath+of+the+Wild",
+    "genre": "Action-Adventure",
+    "rating": "E10+",
+    "players": "1"
+  },
+  {
+    "game_title": "Super Mario Bros. Wonder",
+    "release_date": "October 20, 2023",
+    "key_features": [
+      "2D side-scrolling action with Wonder Flowers",
+      "Play as Mario, Luigi, Peach, Daisy, and more",
+      "New power-ups including Elephant Mario",
+      "Online multiplayer with friends",
+      "Surprising level transformations"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000059608/9f5f1d3a9b1b5c5e5e5c5e5e5c5e5e5c5e5e5c5e5e5c5e5e",
+    "genre": "Platformer",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Super Mario Odyssey",
+    "release_date": "October 27, 2017",
+    "key_features": [
+      "3D platforming adventure",
+      "Capture enemies and objects with Cappy",
+      "Explore diverse kingdoms around the world",
+      "Find Power Moons to fuel the ship",
+      "Two-player co-op mode"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000001120/5c4e3d2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d",
+    "genre": "Platformer",
+    "rating": "E",
+    "players": "1-2"
+  },
+  {
+    "game_title": "Mario Kart 8 Deluxe",
+    "release_date": "April 28, 2017",
+    "key_features": [
+      "48 tracks from previous Mario Kart games",
+      "42 playable characters",
+      "Local wireless and online multiplayer",
+      "Smart steering for beginners",
+      "Battle mode with 8 arenas"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Nintendo EAD",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000001044/23a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+    "genre": "Racing",
+    "rating": "E",
+    "players": "1-12"
+  },
+  {
+    "game_title": "Animal Crossing: New Horizons",
+    "release_date": "March 20, 2020",
+    "key_features": [
+      "Build and customize your island paradise",
+      "Hundreds of items to craft and collect",
+      "Seasonal events throughout the year",
+      "Invite villagers to live on your island",
+      "Multiplayer visits to friends' islands"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000027332/ac2b4d6f8e0a2c4e6g8i0k2m4o6q8s0u2w4y6",
+    "genre": "Life Simulation",
+    "rating": "E",
+    "players": "1-8"
+  },
+  {
+    "game_title": "Super Smash Bros. Ultimate",
+    "release_date": "December 7, 2018",
+    "key_features": [
+      "80+ fighters from gaming history",
+      "100+ stages to battle on",
+      "800+ music tracks",
+      "Spirits mode with unique challenges",
+      "8-player local multiplayer"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Bandai Namco",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000012345/4b6d8f0a2c4e6g8i0k2m4o6q8s0u2w4y6a8c0e",
+    "genre": "Fighting",
+    "rating": "E10+",
+    "players": "1-8"
+  },
+  {
+    "game_title": "Luigi's Mansion 3",
+    "release_date": "October 31, 2019",
+    "key_features": [
+      "Explore a 15-floor haunted hotel",
+      "Capture ghosts with the Poltergust G-00",
+      "Play as Luigi and Gooigi in co-op",
+      "Solve puzzles in each themed floor",
+      "Multiplayer ScareScraper mode"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Next Level Games",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000019008/6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4f3e2d1c",
+    "genre": "Action-Adventure",
+    "rating": "E",
+    "players": "1-4"
+  },
+  {
+    "game_title": "Splatoon 3",
+    "release_date": "September 9, 2022",
+    "key_features": [
+      "4v4 ink-based turf wars",
+      "New weapons and special abilities",
+      "Salmon Run co-op mode returns",
+      "Tableturf Battle card game",
+      "Splatfest events with themes"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000048653/7e6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4f3e2d",
+    "genre": "Third-Person Shooter",
+    "rating": "E10+",
+    "players": "1-8"
+  },
+  {
+    "game_title": "Metroid Dread",
+    "release_date": "October 8, 2021",
+    "key_features": [
+      "2D action-adventure platformer",
+      "Explore planet ZDR",
+      "Fight the unstoppable EMMI robots",
+      "Acquire new abilities and upgrades",
+      "Intense boss battles"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "MercurySteam",
+    "publisher": "Nintendo",
+    "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/ncom/software/switch/70010000033447/8f7e6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4f3",
+    "genre": "Action-Adventure",
+    "rating": "E10+",
+    "players": "1"
+  },
+  {
+    "game_title": "Kirby and the Forgotten Land",
+    "release_date": "March 25, 2022",
+    "key_features": [
+      "First 3D Kirby adventure",
+      "Copy abilities including Mouthful Mode",
+      "Rescue Waddle Dees throughout levels",
+      "Two-player co-op",
+      "Charming post-apocalyptic world"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "HAL Laboratory",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Kirby+Forgotten+Land",
+    "genre": "Platformer",
+    "rating": "E",
+    "players": "1-2"
+  },
+  {
+    "game_title": "Pikmin 4",
+    "release_date": "July 21, 2023",
+    "key_features": [
+      "Real-time strategy gameplay",
+      "New Pikmin types",
+      "Night expeditions with Glow Pikmin",
+      "Create your own character",
+      "Dandori battle mode"
+    ],
+    "platform_availability": "Nintendo Switch",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "image_url": "https://via.placeholder.com/300x200?text=Pikmin+4",
+    "genre": "Strategy",
+    "rating": "E",
+    "players": "1-2"
+  }
+]
