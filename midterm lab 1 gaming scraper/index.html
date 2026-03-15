@@ -3,178 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎮 Nintendo Game Hub | Switch 1 & Switch 2 2026</title>
+    <title>🎮 Nintendo Game Directory</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome 6 for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Google Fonts for Nintendo-like typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Nintendo Switch 2 Announcement Banner -->
-    <div class="announcement-banner">
-        <div class="container"> 
-            <i class="fas fa-star"></i>
-            <span>NINTENDO SWITCH 2 NOW AVAILABLE! Check out the latest March 2026 releases below ✨</span>
-            <i class="fas fa-star"></i>
-        </div>
-    </div>
-
-    <!-- Hero Section with Platform Stats -->
-    <header class="hero-section">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-logo">
-                    <i class="fas fa-gamepad"></i>
-                    <h1>NINTENDO GAME </h1>
-                </div>
-                <p class="hero-subtitle">Real-time game database • March 2026 • Switch 1 & Switch 2</p>
-                
-                <div class="hero-stats" id="heroStats">
-                    <div class="stat-card">
-                        <div class="stat-number" id="totalGames">0</div>
-                        <div class="stat-label">TOTAL GAMES</div>
-                    </div>
-                    <div class="stat-card switch1-stat">
-                        <div class="stat-number" id="switch1Count">0</div>
-                        <div class="stat-label">
-                            <i class="fas fa-gamepad"></i> SWITCH 1
-                        </div>
-                    </div>
-                    <div class="stat-card switch2-stat">
-                        <div class="stat-number" id="switch2Count">0</div>
-                        <div class="stat-label">
-                            <i class="fas fa-star"></i> SWITCH 2
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number" id="updateDate">-</div>
-                        <div class="stat-label">
-                            <i class="fas fa-calendar"></i> UPDATED
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <header>
+        <div class="header-content">
+            <h1>🎮 Nintendo Games</h1>
+            <p>Discover Nintendo games</p>
         </div>
     </header>
 
-    <main class="container">
-        <!-- Search and Filter Section -->
-        <div class="controls-panel">
-            <div class="search-wrapper">
-                <i class="fas fa-search search-icon"></i>
-                <input type="text" id="searchInput" placeholder="Search by game title, developer, or publisher..." class="search-input">
-                <button class="search-btn" id="searchBtn">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
+    <main>
+        <section class="controls">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="🔍 Search games..."
+                    class="search-input"
+                    disabled
+                >
             </div>
-
-            <div class="filter-section">
-                <div class="filter-label">
-                    <i class="fas fa-filter"></i>
-                    <span>FILTER BY PLATFORM:</span>
-                </div>
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">
-                        <i class="fas fa-globe"></i> ALL GAMES
-                    </button>
-                    <button class="filter-btn switch1-btn" data-filter="switch1">
-                        <i class="fas fa-gamepad"></i> SWITCH 1
-                    </button>
-                    <button class="filter-btn switch2-btn" data-filter="switch2">
-                        <i class="fas fa-star"></i> SWITCH 2
-                    </button>
-                </div>
-            </div>
-
-            <div class="sort-section">
-                <div class="sort-label">
-                    <i class="fas fa-sort"></i>
-                    <span>SORT BY:</span>
-                </div>
-                <select id="sortSelect" class="sort-select">
-                    <option value="title">Game Title A-Z</option>
-                    <option value="date-desc">Latest First</option>
-                    <option value="date-asc">Oldest First</option>
+            
+            <div class="filter-container">
+                <select id="platformFilter" class="filter-select" disabled>
+                    <option value="all">All Platforms</option>
+                    <option value="Nintendo Switch">Nintendo Switch</option>
+                </select>
+                
+                <select id="sortFilter" class="filter-select" disabled>
+                    <option value="title">Sort by Title</option>
+                    <option value="release_date">Sort by Release Date</option>
+                    <option value="developer">Sort by Developer</option>
                 </select>
             </div>
-        </div>
+            
+            <div class="action-container">
+                <button id="loadGamesBtn" class="load-btn">
+                    <span class="btn-icon">🎮</span>
+                    Scraped Games
+                </button>
+                <span id="lastUpdated" class="last-updated"></span>
+            </div>
+            
+            <div class="stats-container">
+                <span id="gameCount">Click button to load games</span>
+            </div>
+        </section>
 
-        <!-- Platform Quick Stats -->
-        <div class="platform-quick-stats">
-            <div class="quick-stat-card march">
-                <i class="fas fa-calendar-alt"></i>
-                <div class="quick-stat-info">
-                    <span class="quick-stat-label">March 2026 Releases</span>
-                    <span class="quick-stat-number" id="marchCount">0</span>
+        <section class="games-grid" id="gamesGrid">
+            <div class="welcome-message">
+                <div class="welcome-content">
+                    <span class="welcome-icon">🎮</span>
+                    <h2>Welcome!</h2>
+                    <p>Click the "Load Games" button to start.</p>
                 </div>
             </div>
-            <div class="quick-stat-card upcoming">
-                <i class="fas fa-clock"></i>
-                <div class="quick-stat-info">
-                    <span class="quick-stat-label">Upcoming Games</span>
-                    <span class="quick-stat-number" id="upcomingCount">0</span>
-                </div>
-            </div>
-            <div class="quick-stat-card exclusive">
-                <i class="fas fa-crown"></i>
-                <div class="quick-stat-info">
-                    <span class="quick-stat-label">Switch 2 Exclusives</span>
-                    <span class="quick-stat-number" id="exclusiveCount">0</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Games Grid -->
-        <div class="games-section">
-            <div class="section-header">
-                <h2><i class="fas fa-star"></i> FEATURED NINTENDO GAMES</h2>
-                <div class="view-options">
-                    <button class="view-btn active" data-view="grid"><i class="fas fa-th-large"></i></button>
-                    <button class="view-btn" data-view="list"><i class="fas fa-list"></i></button>
-                </div>
-            </div>
-
-            <div class="games-grid" id="gamesGrid">
-                <div class="loading-spinner">
-                    <div class="spinner"></div>
-                    <p>LOADING GAME DATA...</p>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
 
-    <!-- Newsletter / Coming Soon Section -->
-    <section class="coming-soon-section">
-        <div class="container">
-            <h2><i class="fas fa-clock"></i> COMING SOON TO NINTENDO SWITCH</h2>
-            <div class="coming-soon-grid" id="comingSoonGrid">
-                <!-- Will be populated by JavaScript -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <i class="fas fa-gamepad"></i>
-                    <span>NINTENDO GAME HUB</span>
-                </div>
-                <div class="footer-links">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-discord"></i></a>
-                    <a href="#"><i class="fab fa-reddit"></i></a>
-                </div>
-                <div class="footer-copyright">
-                    <p>© 2026 Nintendo Game Hub | Real-time game data sourced from official Nintendo announcements</p>
-                    <p class="footer-note">Nintendo Switch is a trademark of Nintendo. All game information is for educational purposes.</p>
-                </div>
-            </div>
-        </div>
+    <footer>
+        <p>Data sourced from Nintendo</p>
+        <p>© 2024 Nintendo Game Directory</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+</html>
