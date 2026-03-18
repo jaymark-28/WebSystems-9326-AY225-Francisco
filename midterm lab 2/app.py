@@ -1,8 +1,3 @@
-"""
-GeeksforGeeks Data Analysis Scraper
-FULLY FIXED - With working URLs and proper error handling
-"""
-
 import os
 import sys
 import json
