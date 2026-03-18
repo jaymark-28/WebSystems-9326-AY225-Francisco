@@ -366,7 +366,7 @@
         <div class="content">
             <div class="controls">
                 <button class="btn btn-primary" onclick="startScraping()" id="scrapeBtn">
-                    <span>🔄</span> Scrape
+                    <span>🔄</span> Get Article Titles
                 </button>
                 <button class="btn btn-success" onclick="generatePDF()" id="pdfBtn" disabled>
                     <span>📄</span> Generate PDF
@@ -392,7 +392,7 @@
                     </div>
                     <div class="articles-grid" id="articlesGrid">
                         <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #6b7280;">
-                            Walang articles. I-click ang "Kunin ang mga Article Title" para magsimula.
+                            No articles yet. Click "Get Article Titles" to start.
                         </div>
                     </div>
                 </div>
@@ -402,7 +402,7 @@
                     <div class="preview-content" id="previewContent">
                         <div class="loading-placeholder">
                             <div class="loading"></div>
-                            <p>Mag-click ng article para makita ang detalye</p>
+                            <p>Click an article to see the details</p>
                         </div>
                     </div>
                 </div>
@@ -420,10 +420,10 @@
 
         async function startScraping() {
             const btn = document.getElementById('scrapeBtn');
-            btn.innerHTML = '<span class="loading"></span> Kinukuha...';
+            btn.innerHTML = '<span class="loading"></span> Fetching...';
             btn.disabled = true;
             
-            showStatus('info', '🔄 Kinukuha ang mga article title...');
+            showStatus('info', '🔄 Fetching article titles...');
             document.getElementById('statusCard').style.display = 'block';
             document.getElementById('progressFill').style.width = '30%';
             
@@ -439,10 +439,10 @@
                     showStatus('error', `❌ Error: ${data.error}`);
                 }
             } catch (error) {
-                showStatus('error', '❌ Hindi makakonek sa server');
+                showStatus('error', '❌ Cannot connect to server');
             }
             
-            btn.innerHTML = '<span>🔄</span> Kunin ang mga Article Title';
+            btn.innerHTML = '<span>🔄</span> Get Article Titles';
             btn.disabled = false;
             
             setTimeout(() => {
@@ -461,7 +461,7 @@
                 if (articles.length === 0) {
                     document.getElementById('articlesGrid').innerHTML = `
                         <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #6b7280;">
-                            Walang articles. I-click ang "Kunin ang mga Article Title" para magsimula.
+                            No articles yet. Click "Get Article Titles" to start.
                         </div>
                     `;
                     return;
@@ -476,7 +476,7 @@
                              onclick="selectArticle(${article.id})">
                             <span class="article-id">#${article.id}</span>
                             <div class="article-title">${article.title.length > 60 ? article.title.substring(0,60) + '...' : article.title}</div>
-                            <small style="color: #6b7280;">Click para makita ang buong detalye</small>
+                            <small style="color: #6b7280;">Click to view full details</small>
                         </div>
                     `;
                 });
@@ -492,7 +492,7 @@
             document.getElementById('previewContent').innerHTML = `
                 <div class="loading-placeholder">
                     <div class="loading"></div>
-                    <p>Kinukuha ang buong detalye...</p>
+                    <p>Fetching full details...</p>
                 </div>
             `;
             
@@ -519,7 +519,7 @@
                 
             } catch (error) {
                 document.getElementById('previewContent').innerHTML = `
-                    <div class="error-message">Error sa pagkuha ng detalye</div>
+                    <div class="error-message">Error fetching details</div>
                 `;
             }
         }
@@ -537,7 +537,7 @@
                 <div class="preview-url">
                     <strong>Source:</strong>
                     <a href="${article.url}" target="_blank">${article.url}</a>
-                    <small style="display: block; margin-top: 5px; color: #666;">Click link para mabuksan sa GeeksforGeeks</small>
+                    <small style="display: block; margin-top: 5px; color: #666;">Click link to open on GeeksforGeeks</small>
                 </div>
                 
                 <div class="preview-section-header">📝 Key Concepts</div>
@@ -560,11 +560,11 @@
 
         async function generatePDF() {
             if (selectedArticles.length === 0) {
-                showStatus('error', '⚠️ Pumili ng kahit isang article');
+                showStatus('error', '⚠️ Please select at least one article');
                 return;
             }
             
-            showStatus('info', `📄 Ginagawa ang PDF...`);
+            showStatus('info', `📄 Generating PDF...`);
             
             try {
                 const response = await fetch('/generate-pdf', {
@@ -586,10 +586,10 @@
                 a.click();
                 window.URL.revokeObjectURL(url);
                 
-                showStatus('success', '✅ PDF generated!');
+                showStatus('success', '✅ PDF generated successfully!');
                 
             } catch (error) {
-                showStatus('error', '❌ Error sa paggawa ng PDF');
+                showStatus('error', '❌ Error generating PDF');
                 console.error(error);
             }
         }
@@ -605,12 +605,12 @@
             document.getElementById('previewContent').innerHTML = `
                 <div class="loading-placeholder">
                     <div class="loading"></div>
-                    <p>Mag-click ng article para makita ang detalye</p>
+                    <p>Click an article to view details</p>
                 </div>
             `;
             
             document.getElementById('pdfBtn').disabled = true;
-            showStatus('success', '🗑️ Na-clear ang lahat ng data');
+            showStatus('success', '🗑️ All data cleared successfully');
         }
 
         function showStatus(type, message) {
